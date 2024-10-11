@@ -1,4 +1,4 @@
-const dataInicioNamoro = new Date("2024-03-01"); // Substitua pela data correta
+const dataInicioNamoro = new Date("2024-03-01");
 const tempoCalculadoElemento = document.getElementById("tempo-calculado");
 
 function calcularTempoJuntos() {
@@ -15,4 +15,4 @@ function calcularTempoJuntos() {
 }
 
 calcularTempoJuntos();
-setInterval(calcularTempoJuntos, 1000); // Atualiza a cada segundo
+setInterval(calcularTempoJuntos, 1000);
